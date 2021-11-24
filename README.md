@@ -1,4 +1,4 @@
-# Creating Your Own Website 
+# Team Cheerios (formerly BigMoneyRobot)
 
 ## Section A: Setting up your work environment  
 1. Download VS Code from the following link https://code.visualstudio.com/download 
