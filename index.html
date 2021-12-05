@@ -42,7 +42,7 @@
 <!----------------------------------------  BUTTON 1 ---------------------------------------->
       
       <div class='center'>
-        <button type='button' onclick="toggleText1()" class="btn">Challenges #1 & #2</button>
+        <button type='button' onclick="toggleText1()" class="btn">Challenge 1A/1B: Photoresistors and Potentiometers Circuits</button>
       </div> <!--end of div class center -->
       
       <div class="interactive" id='interactive1' style='display: none'>
@@ -55,20 +55,14 @@
             <img src = 'https://lh3.googleusercontent.com/u3QdoCSl51WVDvYQ4JndZL14TH4e1kQh68cFqKG2tGnvXg1fzqREfnrIY-SvNIDSR_HZJxw4Se7BKXdg_sHqlAQSRocUa1vITZtbQZutA4MMP7ahD3EDOSQ4Il7olNGrYC8xDo0F1w=w240' class='imgmar'>
             <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
             <br>
-            <p2>IMG1 Add a picture of your breadboarded potentiometers <br> 
-              IMG2 Add picture of your breadboarded photoresistors</p2>
+            <p2>Breadboarded potentiometers <br> 
+              Breadboarded photoresistors</p2>
             <br><br>
          
           <p class='box2'>
-            Comments on output? 
-            What range of values did your potentiometer output? 
-            Did Turning your potentiometer clockwise increase or decrease the value?
-            <br><br>
-            &emsp; Our potentiometer gave out readings between 0 and 1023 when we turned the potentiometers in a clockwise direction. We could change the direction we needed turn to increase readings by switching the polarity of the potentiometers. This was as simple as flipping the potentiometer around when we put it into the breadboard.
+             Our potentiometer gave out readings between 0 and 1023 when we turned the potentiometers in a clockwise direction. We could change the direction we needed turn to increase readings by switching the polarity of the potentiometers. This was as simple as flipping the potentiometer around when we put it into the breadboard.
             <br><br><br> 
-            What range of values did your photo resistors output for a white surface and for a black surface?
-            <br><br>
-            &emsp; Right now, without a covering, our photoresistors gave out values of 750-850 on the black surface and 650-700 for the white surface. The external light sources artificially decreased the reading values, while shadows increased it. However, this isn't guaranteed as the angle of light and shadow can affect different photoresistors differently.
+             Without a light shield installed, our photoresistors gave out values of 750-850 on the black surface and 650-700 for the white surface, on a scale of 0-1023. The external light sources artificially decreased the reading values, while shadows increased it. However, this isn't guaranteed as the angle of light and shadow can affect different photoresistors differently.
           </p> <!-- p is paragraph -->
         </div> <!-- This is the end of div box1 -->
       </div> <!-- This is the end of div interactive -->
@@ -76,26 +70,28 @@
 <!----------------------------------------  BUTTON 2 ---------------------------------------->
         
       <div class ='center'> <!-- we put the buton in a container to center it -->
-        <button type='button' onclick="toggleText2()" class="btn">Challenge #3 & #4</button>
+        <button type='button' onclick="toggleText2()" class="btn">Challenge 1D: Chassis Modifications</button>
       </div> <!--end of div class center -->
       
       <div class="interactive" id='interactive2' style='display: none'>
         <div class='box1'>
           <br>
           
-            <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png' class='imgmar'>
+            <img src = 'https://lh3.googleusercontent.com/N2efZZpIvXwJ4_MdkRMeBjy7hs52Z-dgSNC3MQMbAbER2YH57Cs4c7ryxPhJA-xz-1sMv29Oo8iuLElsybFHXS9sUpKYtBSWvcLgVWNtjDZBYbkfuurcSd-OveEciIryqdN9nlvzDw=w2400' class='imgmar'>
             <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png' class='imgmar'>
             <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
             <br>
-            <p2>IMG1 Add a screenshot of your solidworks chasis model <br> 
-              IMG2 Add picture of your 3D printed chasis</p2>
+            <p2>STL file of battery holder in Solidworks <br> 
+              Battery holder attached to the back of the robot</p2>
             <br><br>
           
           <p class='box2'>
-            Explain what you have created, what functional modifications (need at least 2) 
-            you made to the design and add a picture of your 3D printed chassis. 
             <br><br>
-            &emsp; Answer here...
+           The first modification we made was the addition a light shield to the robot. Since we placed our photoresistors directly under the robot chassis on a protoboard, our light shield consisted of two strips of cardboard hot-glued to the sides of the chassis, and some masking tape along the front of the chassis. The light shield prevents external sources of lighting from interfering with our photoresistor readings, allowing for greater accuracy. Prior to our final design, our photoresistors were connected to a breadboard placed in front of the robot. With this design, we used a cardboard light shield that completely enclosed the front of the robot. We moved away from this design because we found that the robot had difficulty completing the frequency sweep track with the photoresistors placed in front of the robot.
+            
+         <br><br>
+         &emsp; The second modification was the addition of a 3D printed case for the battery holders, designed in Solidworks. With the case, the battery holder can be put in place without the need for zip ties, and gives the robot an overall cleaner design.
+    
           </p> <!-- p is paragraph -->
         </div> <!-- This is the end of div interactive -->
       </div> <!-- This is the end of div box1 -->
@@ -119,9 +115,8 @@
             <br><br>
           
           <p class='box2'>
-            What is the purpose of the motor driver/shield?
             <br><br>
-            &emsp; The purpose of the motor driver is to prevent all the power to be given to the motors and not to the other robot parts like the potentiometers. The motor driver allows the arduino to be powered by a 5 volts battery and give out commands to the robot, while enabling a 9 volt battery to power the motors instead.
+            The purpose of the motor driver is to prevent all the power to be given to the motors and not to the other robot parts like the potentiometers. The motor driver allows the Arduino to be powered by a 5 volt battery and give out commands to the robot, while enabling a 9 volt battery to power the motors instead.
           </p> <!-- p is paragraph -->
         </div> <!-- This is the end of div interactive -->
       </div> <!-- This is the end of div box1 -->
@@ -129,7 +124,7 @@
 <!----------------------------------------  BUTTON 4 ----------------------------------------> 
       
       <div class ='center'>
-        <button type='button' onclick="toggleText4()" class="btn">Challenge #6 & #7</button>
+        <button type='button' onclick="toggleText4()" class="btn">Challenge 3A: Calibration</button>
       </div> <!--end of div class center -->
             
       <div class="interactive" id='interactive4' style='display: none'>
@@ -139,14 +134,13 @@
             <img src = 'https://lh3.googleusercontent.com/QPA_cIYOktRCD19MVaG8MRZjGoRjW7HHcjZtoXFzB8eeeXHtr3Mh_xqhWRLeCWIb4Ix8fcepZdANwRWcB0glQp4USONH1V9Z_90CPyYNNcVmCSSKElU3tllXTE7a2RCuZ6D49wMtZg=w240' class='imgmar'>
             <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
             <br>
-            <p2>IMG1 Add a picture of your fully assembled robot with all components and circuitry</p2>
            <br><br>
           
           <p class='box2'>
             Challenge #7: Explain why you need to calibrate your photoresistor values. 
             What problem does this help solve and what problems do you still see coming from your photoresistors?  
             <br><br>
-            &emsp; We needed to calibrate the photoresistor values to account for fluctuations and variations in expected photoresistor reading values, which may be caused by interfering external light, photoresistor misalignment, etc. One problem we stil faced even after calibration is external light interference affecting photoresistor values, which we were able to fix by adjusting our custom light shield.
+            We needed to calibrate the photoresistor values to account for fluctuations and variations in expected photoresistor reading values, which may be caused by interfering external light, photoresistor misalignment, etc. One problem we stil faced even after calibration is external light interference affecting photoresistor values, which we were able to fix by adjusting our custom light shield.
           </p> <!-- p is paragraph -->
         </div> <!-- This is the end of div interactive -->
       </div> <!-- This is the end of div box1 -->
@@ -168,15 +162,15 @@
           
           <p class='box2'>
             <br><br>
-            &emsp;P stands for proportional control, and it scales the error value by a proportional gain factor, which gives a turn rate that allows the robot to align itself back on the line after calculating an error. I is the integral, which gives us the cumulative sum previous of errors and can help us correct for small but consistent errors. D, the derivative, checks for the change between errors and whether the the error is increasing or decreasing, which helps us account for sharp and sudden turns. We settled on the values of 15:10:10 because we figured out through experimentation that we didn't need high PID values to navigate the relatively simple and straightforward loop track. Therfore, we went with low PID values and a high speed to allow us to get the fastest possible results, although we will need to change this approach with other types of tracks.
+           P stands for proportional control, and it scales the error value by a proportional gain factor, which gives a turn rate that allows the robot to align itself back on the line after calculating an error. I is the integral, which gives us the cumulative sum previous of errors and can help us correct for small but consistent errors. D, the derivative, checks for the change between errors and whether the the error is increasing or decreasing, which helps us account for sharp and sudden turns. We settled on the values of 15:10:10 because we figured out through experimentation that we didn't need high PID values to navigate the relatively simple and straightforward loop track. Therfore, we went with low PID values and a high speed to allow us to get the fastest possible results, although we will need to change this approach with other types of tracks.
             <br><br>
             What was the best PID values that you used? How well did this track? Any limitations?
             <br><br>
-            &emsp;  41, 14, 0 5 For the first seeding seeding round, we settled on a value of 15 for P, 10 for I, and 10 for D. With these values, we were able to complete 10 laps on the seeding track in 1 minute. Unfortunately, we were only able to successfully test the PID values for the seeding round loop track, and could not succesfuly adjust the values to work with the frequency sweep track. For our second
-            <br><br><br>
-            What does PID stand for?  What is the purpose of the P, the I, and the D?  
-            What steps did you take to choose the best values for your robot? 
-            Explain this like you would for someone taking this course next year.
+            For the first seeding seeding round, we settled on a value of 15 for P, 10 for I, and 10 for D. With these values, we were able to complete 10 laps on the circuit seeding track in 1 minute.
+            <br><br>
+            After we modified the robot and moved the photoresistors under the chassis, we tested new SPID values with each of the different competitions tracks and settled on the values with the most reliable results. For the circuit track, we went with S,P,I,D values of 41, 14, 0, and 5. For the drag race, the values were 53, 22, 0, 42. For the frequency sweep, the values were 53, 22, 0, 42. (At the time of the competition, we slightly adjusted the values depending on the situation, but overall these were the most stable values).
+            <br><br>
+
           </p> <!-- p is paragraph -->
         </div> <!-- This is the end of div interactive -->
       </div> <!-- This is the end of div box1 -->
@@ -191,7 +185,7 @@
         <div class='box1'>
           <br>
           <p class='box2'>
-            Insert a video of your robot in action!
+            Video of robot with initial design, just prior to the first seeding round
           </p> <!-- p is paragraph -->
           <iframe width="420" height="315" src="https://www.youtube.com/embed/LorprjG8u1s"> </iframe>
             <br>
