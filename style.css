@@ -89,12 +89,15 @@ p2 {
 .btn {
   text-align: center;
   font-size: 0.9vw;
-  border-radius: 15px;
+  border-radius: 4px;
   padding: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
   width: 100%;
-  background-color: rgb(255,255,255); /*you can change color by changing the HEX code*/
+  display: block;
+  background-color: #352e6a; /*you can change color by changing the HEX code*/
+  color:#ffffff;
+    font-family: Lucida Console, monospace; /*You can change the font here*/
 }
 
 .btn:hover {
