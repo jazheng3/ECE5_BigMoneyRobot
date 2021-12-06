@@ -5,7 +5,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0rem; /* see referance for how padding and margins apply */
-  font-family: Verdana, sans-serif; /*You can change the font here*/
+  font-family: Lucida Console, monospace; /*You can change the font here*/
 }  
 
 .main {
