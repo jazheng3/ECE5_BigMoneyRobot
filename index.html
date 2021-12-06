@@ -152,9 +152,6 @@
            <br><br>
           
           <p class='box2'>
-            Challenge #7: Explain why you need to calibrate your photoresistor values. 
-            What problem does this help solve and what problems do you still see coming from your photoresistors?  
-            <br><br>
             We needed to calibrate the photoresistor values to account for fluctuations and variations in expected photoresistor reading values, which may be caused by interfering external light, photoresistor misalignment, etc. One problem we stil faced even after calibration is external light interference affecting photoresistor values, which we were able to fix by adjusting our custom light shield.
           </p> <!-- p is paragraph -->
         </div> <!-- This is the end of div interactive -->
@@ -176,10 +173,7 @@
           <br><br> 
           
           <p class='box2'>
-            <br><br>
            P stands for proportional control, and it scales the error value by a proportional gain factor, which gives a turn rate that allows the robot to align itself back on the line after calculating an error. I is the integral, which gives us the cumulative sum previous of errors and can help us correct for small but consistent errors. D, the derivative, checks for the change between errors and whether the the error is increasing or decreasing, which helps us account for sharp and sudden turns. We settled on the values of 15:10:10 because we figured out through experimentation that we didn't need high PID values to navigate the relatively simple and straightforward loop track. Therfore, we went with low PID values and a high speed to allow us to get the fastest possible results, although we will need to change this approach with other types of tracks.
-            <br><br>
-            What was the best PID values that you used? How well did this track? Any limitations?
             <br><br>
             For the first seeding seeding round, we settled on a value of 15 for P, 10 for I, and 10 for D. With these values, we were able to complete 10 laps on the circuit seeding track in 1 minute.
             <br><br>
