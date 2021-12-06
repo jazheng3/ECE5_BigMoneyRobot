@@ -38,7 +38,23 @@
  
       
 <!--   *********************  BUTTONS START *********************   -->
+      <div class='center'>
+        <button type='button' onclick="toggleText7()" class="btn">Robot Overview</button>
+      </div> <!--end of div class center -->
       
+      <div class="interactive" id='interactive7' style='display: none'>
+        <div class='box1'>
+          <br>
+            <img src = 'https://lh3.googleusercontent.com/NKWjSk4JjdsSi06Q69ilAsO_ucTAjG1tpLbIEOrNoDZQz3GaqFSmEZCYzutSq83TwhWbEJXFrCAPXlG2nY1EslZkEoKWnzGmbb6MJ5XtIhjfgzzTnp5gWmFenZBhY9CI3vZZfSzzXQ=w600' class='imgmar'>
+            <img src = 'https://lh3.googleusercontent.com/dlqJQMoAlJICJALzQ-m50dY1HIirxGyRSrzdEDVn3v4KHG7YEWtroczww6trwGhmRdxgVkuPGAHDQ_VXY-dnvzHFIxoHOzCQzGcaZuVQ2WLBat0DMaosSQq7T8et7oonILtAxFCkQA=w600' class='imgmar'>
+            <img src = 'https://lh3.googleusercontent.com/HnhCUkxeLEjEfwEZXlOvsniY9qKLn0v3i5AJqtK8jsAzGoIyH9pD3TynWxZWCPUAbB1TWOfTeHV4hOf94miwliqPaVzBkpmMDVqamuBwikRkADOOEFjrU46Zubx738c1Ledqv1xgNQ=w600' class='imgmar'>
+            <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+            <br>
+            <p2>Front, top, and bottom views of the robot with part labels</p2>
+            <br><br>
+          </p> <!-- p is paragraph -->
+        </div> <!-- This is the end of div box1 -->
+      </div> <!-- This is the end of div interactive -->      
 <!----------------------------------------  BUTTON 1 ---------------------------------------->
       
       <div class='center'>
@@ -99,8 +115,8 @@
         <div class='box1'>
           <br>
           
-            <img src = 'https://lh3.googleusercontent.com/N2efZZpIvXwJ4_MdkRMeBjy7hs52Z-dgSNC3MQMbAbER2YH57Cs4c7ryxPhJA-xz-1sMv29Oo8iuLElsybFHXS9sUpKYtBSWvcLgVWNtjDZBYbkfuurcSd-OveEciIryqdN9nlvzDw=w2400' class='imgmar'>
-            <img src = 'https://lh3.googleusercontent.com/hK5z6M5Kd8GHbjA1N4H0oBAO_7kaNK43Nbrq5ipE8Z-X6klSrXUfqfbl5DsAKJOMhMIJL48of0Lle-Isiax_pG2IlhL2e6v7FD_SJrgC-VyN4wGbGdWao4WJ89ct52xdmufdZ29mCQ=w2400' class='imgmar'>
+            <img src = 'https://lh3.googleusercontent.com/N2efZZpIvXwJ4_MdkRMeBjy7hs52Z-dgSNC3MQMbAbER2YH57Cs4c7ryxPhJA-xz-1sMv29Oo8iuLElsybFHXS9sUpKYtBSWvcLgVWNtjDZBYbkfuurcSd-OveEciIryqdN9nlvzDw=w600' class='imgmar'>
+            <img src = 'https://lh3.googleusercontent.com/hK5z6M5Kd8GHbjA1N4H0oBAO_7kaNK43Nbrq5ipE8Z-X6klSrXUfqfbl5DsAKJOMhMIJL48of0Lle-Isiax_pG2IlhL2e6v7FD_SJrgC-VyN4wGbGdWao4WJ89ct52xdmufdZ29mCQ=w600' class='imgmar'>
             <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
             <br>
             <p2>STL file of battery holder in Solidworks <br> 
@@ -267,7 +283,14 @@
         text.style.display = "none";
       }
     }
-
+    function toggleText7(text) {
+      var text = document.getElementById("interactive7");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
   </script>
 
 </html>
